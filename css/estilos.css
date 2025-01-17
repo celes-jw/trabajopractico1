@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+h1 {font-size: 50px; text-align: center; text-decoration: underline;}
+body {background-color:darkgrey;}
+h2 { font-size: 40px;
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.si {font-size: 3vw; }
+    a:link{color:#2ECC71;}
+a:visited {color:#424949;}
+a:active {color:#28B463; }
+a:hover{background : white;}
+
+footer {display: flex;justify-content:space-around; align-items: center;background-color: lightblue}
+
+aside{border: 10vw;display: flex;justify-content: space-around;}
+
+header{margin: 10vh;}
+.whats { width: 10vw;
+        position: fixed;
+        top: 10px;
+         right: 10px}
+
+.imagen{border-radius: 100px;
+        width: 9vw; }
+.ig  {width: 10vw;}
+.x {width: 15vw;}
+.yt{width: 10vw;}
+.index{font-size : 30px;}
+.contacto{font-size: 3vw;}
+nav { margin: 10px;
+  padding: 40px;
+  height: 10vw;
+    background-image: url(../imagenes/corazon.jpg);
+  display: flex;justify-content: space-around;
+ align-items: center;}
+.verde {background-color: lightblue;}
+.esc {background-color: grey}
+.caracteristicas{font-size: 3vw;}
+.red {display: flex;justify-content: center;font-family: "Fira Sans", serif;
+font-weight: 400;
+font-style: normal;}
+@media (max-width: 505px) {
+  body { background-color: lightblue;}
+
+  @media (max-width: 505px) {
+    .verde { background-color: grey; }
+
+    @media (max-width: 505px) {
+      aside{ background-image:url(../imagenes/demo.jpg); display: flex; justify-content: flex-end;}
+
+      @media (min-width: 505px) {
+    .esc { background-color: pink}
+
+.unicocarusel{display: flex;justify-content: center;}
+
+.font {
+  font-family: "Bokor", serif;
+  font-weight: 400;
+  font-style: normal;
+}
